@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="atividade.celer.com.br.atividade.Pessoa.PessoaCadActivity"
+    style="@style/fundo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pessoaCad_tvId" />
+
+        <EditText
+            android:id="@+id/pessoaCad_edtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite o id"
+            android:text="@string/pessoaCad_edtId" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pessoaCad_tvNome" />
+
+        <EditText
+            android:id="@+id/pessoaCad_edtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:text="@string/pessoaCad_edtNome" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pessoaCad_tvEndereco" />
+
+        <EditText
+            android:id="@+id/pessoaCad_edtEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite seu telefone"
+            android:text="@string/pessoaCad_edtEndereco" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pessoaCad_tvTelefone" />
+
+        <EditText
+            android:id="@+id/pessoaCad_edtTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite seu Telefone"
+            android:text="@string/pessoaCad_edtTelefone" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pessoaCad_tvSite" />
+
+        <EditText
+            android:id="@+id/pessoaCad_edtSite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite seu e-mail"
+            android:text="@string/pessoaCad_edtSite" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pessoaCad_btnConfirmar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pessoaCad_btnConfirmar" />
+
+            <Button
+                android:id="@+id/pessoaCad_btnLigar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pessoaCad_btnLigar"
+                android:onClick="ligar"/>
+
+            <Button
+                android:id="@+id/pessoaCad_btnIr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pessoaCad_btnIr"
+                android:onClick="navegar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>

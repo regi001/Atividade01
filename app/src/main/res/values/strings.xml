@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Atividade</string>
+    <string name="pessoaCad_tvId">Id:</string>
+    <string name="pessoaCad_edtId" />
+    <string name="pessoaCad_tvNome">Nome:</string>
+    <string name="pessoaCad_edtNome" />
+    <string name="pessoaCad_tvEndereco">Endereço:</string>
+    <string name="pessoaCad_edtEndereco" />
+    <string name="pessoaCad_tvTelefone">Telefone:</string>
+    <string name="pessoaCad_edtTelefone" />
+    <string name="pessoaCad_tvSite">Site:</string>
+    <string name="pessoaCad_edtSite" />
+    <string name="pessoaCad_btnConfirmar">Confirmar</string>
+    <string name="pessoaCad_btnLigar">Ligar</string>
+    <string name="pessoaCad_btnIr">Ir</string>
+    <string name="menu_salvar">Salvar</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_alterar">Alterar</string>
+    <string name="menu_excluir">Excluir</string>
+    <string name="menu_novo">Novo</string>
+    <string name="menu_cancelar">Cancelar</string>
+    <string name="pessoa_list_item_tvNome">Nome</string>
+    <string name="pessoa_list_item_tvEndereco">Endereço</string>
+
+</resources>
