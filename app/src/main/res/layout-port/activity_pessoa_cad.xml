@@ -17,7 +17,8 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pessoaCad_tvId" />
+            android:text="@string/pessoaCad_tvId"
+            style="@style/texto"/>
 
         <EditText
             android:id="@+id/pessoaCad_edtId"
@@ -25,7 +26,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Digite o id"
-            android:text="@string/pessoaCad_edtId" />
+            android:text="@string/pessoaCad_edtId"
+            style="@style/texto"/>
 
         <TextView
             android:id="@+id/textView8"
@@ -39,13 +41,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintNome"
-            android:text="@string/pessoaCad_edtNome" />
+            android:text="@string/pessoaCad_edtNome"
+            style="@style/texto"/>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pessoaCad_tvEndereco" />
+            android:text="@string/pessoaCad_tvEndereco"
+            style="@style/texto"/>
 
         <EditText
             android:id="@+id/pessoaCad_edtEndereco"
@@ -53,13 +57,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintEndereco"
-            android:text="@string/pessoaCad_edtEndereco" />
+            android:text="@string/pessoaCad_edtEndereco"
+            style="@style/texto"/>
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pessoaCad_tvTelefone" />
+            android:text="@string/pessoaCad_tvTelefone"
+            style="@style/texto"/>
 
         <EditText
             android:id="@+id/pessoaCad_edtTelefone"
@@ -67,13 +73,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintTelefone"
-            android:text="@string/pessoaCad_edtTelefone" />
+            android:text="@string/pessoaCad_edtTelefone"
+            style="@style/texto"/>
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pessoaCad_tvSite" />
+            android:text="@string/pessoaCad_tvSite"
+            style="@style/texto"/>
 
         <EditText
             android:id="@+id/pessoaCad_edtSite"
@@ -81,7 +89,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintSite"
-            android:text="@string/pessoaCad_edtSite" />
+            android:text="@string/pessoaCad_edtSite"
+            style="@style/texto"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
