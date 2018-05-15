@@ -1,20 +1,24 @@
 <resources>
-    <string name="app_name">Atividade</string>
+    <string name="app_name">Activity</string>
     <string name="pessoaCad_tvId">Id:</string>
     <string name="pessoaCad_edtId" />
-    <string name="pessoaCad_tvNome">Nome:</string>
+    <string name="pessoaCad_tvNome">Name:</string>
     <string name="pessoaCad_edtNome" />
-    <string name="pessoaCad_tvEndereco">Endereço:</string>
+    <string name="pessoaCad_tvEndereco">Address:</string>
     <string name="pessoaCad_edtEndereco" />
-    <string name="pessoaCad_tvTelefone">Telefone:</string>
+    <string name="pessoaCad_tvTelefone">Telefhone:</string>
     <string name="pessoaCad_edtTelefone" />
     <string name="pessoaCad_tvSite">Site:</string>
     <string name="pessoaCad_edtSite" />
-    <string name="pessoaCad_btnConfirmar">Confirmar</string>
-    <string name="pessoaCad_btnLigar">Ligar</string>
-    <string name="pessoaCad_btnIr">Ir</string>
+    <string name="pessoaCad_btnConfirmar">Ok</string>
+    <string name="pessoaCad_btnLigar">Call</string>
+    <string name="pessoaCad_btnIr">Go</string>
     <string name="menu_novo">New</string>
     <string name="menu_cancelar">Cancel</string>
     <string name="pessoa_list_item_tvNome">Nome</string>
     <string name="pessoa_list_item_tvEndereco">Endereço</string>
+    <string name="hintNome">type your name</string>
+    <string name="hintEndereco">type your address</string>
+    <string name="hintTelefone">type your fone</string>
+    <string name="hintSite">type your website</string>
 </resources>

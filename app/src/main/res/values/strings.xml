@@ -21,5 +21,9 @@
     <string name="menu_cancelar">Cancelar</string>
     <string name="pessoa_list_item_tvNome">Nome</string>
     <string name="pessoa_list_item_tvEndereco">Endereço</string>
+    <string name="hintNome">Digite seu nome</string>
+    <string name="hintEndereco">Digite seu endereço</string>
+    <string name="hintTelefone">Digite seu telefone</string>
+    <string name="hintSite">Digite seu e-mail</string>
 
 </resources>
