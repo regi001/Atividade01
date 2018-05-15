@@ -38,13 +38,16 @@ public class PessoaListAdapter extends ArrayAdapter<Pessoa>{
                 = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         View item = inflater.inflate(layout,null);
-        TextView tvnome = item.findViewById(R.id.pessoa_list_item_nome);
-        TextView tvendereco = item.findViewById(R.id.pessoa_list_item_tvEndereco);
-
+        TextView tvNome = item.findViewById(R.id.pessoa_list_item_nome);
+        TextView tvEndereco = item.findViewById(R.id.pessoa_list_item_tvEndereco);
+        TextView tvTelefone = item.findViewById(R.id.pessoa_list_item_tvTelefone);
         Pessoa pess = pessoas.get(position);
 
 
-        tvnome.setText(pess.getNome());
+        tvNome.setText(pess.getNome());
+        tvEndereco.setText(pess.getEndereco());
+        tvTelefone.setText(pess.getTelefone());
+
 
 
         return item;

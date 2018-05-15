@@ -1,6 +1,5 @@
 package atividade.celer.com.br.atividade.Pessoa;
 
-import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,10 +33,10 @@ public class PessoaListActivity extends ListActivity {
 
 
         adapter = new PessoaListAdapter(
-                this, R.layout.pessoa_list_item, pessoas);
+                this, R.layout.activity_pessoa_list_item, pessoas);
 
         setListAdapter(adapter);
-
+        atualizarLista();
 
     }
 
@@ -50,6 +49,7 @@ public class PessoaListActivity extends ListActivity {
         Intent it = new Intent(this, PessoaCadActivity.class);
         it.putExtra(Pessoa.ID, pess.getId());
         startActivityForResult(it, 1);
+
     }
     public  void novo(){
         Intent it = new Intent(this, PessoaCadActivity.class);

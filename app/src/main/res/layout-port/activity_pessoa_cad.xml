@@ -33,7 +33,8 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pessoaCad_tvNome" />
+            android:text="@string/pessoaCad_tvNome"
+            style="@style/texto"/>
 
         <EditText
             android:id="@+id/pessoaCad_edtNome"

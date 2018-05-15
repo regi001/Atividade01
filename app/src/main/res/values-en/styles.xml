@@ -6,7 +6,7 @@
     </style>
     <style name="texto">
         <item name="android:textColor">#0000ff</item>
-        <item name="android:textSize">12dp</item>
+        <item name="android:textSize">15dp</item>
     </style>
     <style name="fundo">
         <item name="android:background">#87ceff</item>

@@ -25,5 +25,6 @@
     <string name="hintEndereco">Digite seu endereço</string>
     <string name="hintTelefone">Digite seu telefone</string>
     <string name="hintSite">Digite seu e-mail</string>
+    <string name="pessoa_list_item_tvTelefone">Telefone</string>
 
 </resources>
