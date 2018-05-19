@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     style="@style/fundo">
 
+
+
     <TextView
         android:id="@+id/pessoa_list_item_nome"
         android:layout_width="wrap_content"
@@ -28,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/pessoa_list_item_tvTelefone" />
+    
 
 
 </LinearLayout>

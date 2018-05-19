@@ -46,9 +46,19 @@ public class PessoaCadActivity extends Activity {
         edtTelefone = findViewById(R.id.pessoaCad_edtTelefone);
         edtSite = findViewById(R.id.pessoaCad_edtSite);
 
+        Intent it = getIntent();
+        Long id = it.getLongExtra(Pessoa.ID,0);
+
+        if (id!=0){
+            edtId.setText(String.valueOf(id));
+            buscarPessoa();
+        }
+
         btnConfirmar = findViewById(R.id.pessoaCad_btnConfirmar);
         btnLigar = findViewById(R.id.pessoaCad_btnLigar);
         btnIr = findViewById(R.id.pessoaCad_btnIr);
+
+
 
         btnConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override

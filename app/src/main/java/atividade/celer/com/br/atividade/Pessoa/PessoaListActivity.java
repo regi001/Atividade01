@@ -19,10 +19,9 @@ public class PessoaListActivity extends ListActivity {
     List<Pessoa> pessoas;
     PessoaDAO dao;
 
-
-
     final int MENU_NOVO = 1;
     final int MENU_CANCELAR = 2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,12 +30,11 @@ public class PessoaListActivity extends ListActivity {
         dao = new PessoaDAO(this);
         pessoas = dao.listar();
 
-
         adapter = new PessoaListAdapter(
                 this, R.layout.activity_pessoa_list_item, pessoas);
 
         setListAdapter(adapter);
-        atualizarLista();
+
 
     }
 
@@ -57,16 +55,7 @@ public class PessoaListActivity extends ListActivity {
         startActivityForResult(it, 1);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1){
-            Toast.makeText(this,"Voce licou em Novo!!", Toast.LENGTH_LONG).show();
-        }
-        if (requestCode==2){
-            Toast.makeText(this,"Voce Clicou em Cancelar!!", Toast.LENGTH_LONG).show();
-        }
-    }
+
     public void cancelar(){
     }
 
@@ -83,6 +72,7 @@ public class PessoaListActivity extends ListActivity {
         switch (item.getItemId()){
             case MENU_NOVO:
                 novo();
+
                 break;
 
             case MENU_CANCELAR:
@@ -97,6 +87,12 @@ public class PessoaListActivity extends ListActivity {
         pessoas.clear();
         pessoas.addAll(dao.listar());
         adapter.notifyDataSetChanged();
+
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        atualizarLista();
 
     }
 }
