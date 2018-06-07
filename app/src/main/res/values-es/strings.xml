@@ -15,6 +15,10 @@
     <string name="pessoaCad_btnIr">Ir</string>
     <string name="menu_novo">Nuevo</string>
     <string name="menu_cancelar">Cancelar</string>
+    <string name="menu_salvar">Guardar</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_alterar">Cambio</string>
+    <string name="menu_excluir">Borrar</string>
     <string name="pessoa_list_item_tvNome">Nombre</string>
     <string name="pessoa_list_item_tvEndereco">Dirección</string>
     <string name="hintNome">escriba su nombre</string>

@@ -22,7 +22,7 @@
 
         <EditText
             android:id="@+id/pessoaCad_edtId"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Digite o id"
@@ -38,7 +38,7 @@
 
         <EditText
             android:id="@+id/pessoaCad_edtNome"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintNome"
@@ -54,7 +54,7 @@
 
         <EditText
             android:id="@+id/pessoaCad_edtEndereco"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintEndereco"
@@ -70,7 +70,7 @@
 
         <EditText
             android:id="@+id/pessoaCad_edtTelefone"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintTelefone"
@@ -86,7 +86,7 @@
 
         <EditText
             android:id="@+id/pessoaCad_edtSite"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hintSite"

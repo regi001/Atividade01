@@ -15,6 +15,10 @@
     <string name="pessoaCad_btnIr">Go</string>
     <string name="menu_novo">New</string>
     <string name="menu_cancelar">Cancel</string>
+    <string name="menu_salvar">Save</string>
+    <string name="menu_buscar">Search</string>
+    <string name="menu_alterar">Change</string>
+    <string name="menu_excluir">Delete</string>
     <string name="pessoa_list_item_tvNome">Nome</string>
     <string name="pessoa_list_item_tvEndereco">Endereço</string>
     <string name="hintNome">type your name</string>
