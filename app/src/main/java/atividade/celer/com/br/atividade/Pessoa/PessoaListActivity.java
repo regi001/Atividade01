@@ -4,6 +4,7 @@ import
         android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -58,6 +59,7 @@ public class PessoaListActivity extends ListActivity {
 
 
     public void cancelar(){
+        finish();
     }
 
     @Override
@@ -95,5 +97,34 @@ public class PessoaListActivity extends ListActivity {
         super.onActivityResult(requestCode, resultCode, data);
         atualizarLista();
 
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("appmain","passou resume");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("appmain","passou start");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("appmain","passou pause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("appmain","passou stop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("appmain","passou destroy");
     }
 }
